@@ -1,0 +1,22 @@
+.bold-text {
+    font-weight: bold;
+}
+#title {
+    color: rgb(162, 117, 208);
+    border: 1px solid #b74949;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 20px 14px 10px 14px;
+    padding: 20px 14px 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    pa
+}
+.paragraph-style {
+    font-style: italic;
+    font-size: 14px;
+}
+.first-div span:nth-child(1) p:nth-child(2) {
+
+}
