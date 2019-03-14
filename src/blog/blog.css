@@ -23,6 +23,12 @@ main {
     width: 75%;
     
 }
+.title-date {
+    display: inline;
+}
+.description {
+    display: inline;
+}
 div .title, .date, .description {
     margin: 10px 10px 0 10px;
 }
