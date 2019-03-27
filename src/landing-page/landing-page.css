@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* height: 100vh; */
+}
+.main-container {
+  height: 100%;
+  /* border: 2px solid red; */
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 80px 1fr 70px;
+}
+header {
+  /* border: 2px dotted black; */
+  /* background: red; */
+  display: flex;
+}
+header nav {
+  width: 100%;
+}
+div .logo {
+  /* border: 1px solid green; */
+}
+nav {
+  /* border: 1px solid orange; */
+}
+.hamburger {
+  opacity: 1;
+  width: 100%;
+  transition: opacity 500ms ease;
+
+}
+.hamburger span {
+  display: block;
+  height: 5px;
+  width: 20px;
+  background: black;
+  margin: 14px 0;
+}
+ul {
+  /* border: 1px solid purple; */
+  list-style: none;
+  opacity: 0;
+}
+footer {
+  border: 2px dotted orange;
+  /* background: green; */
+}
+
+main {
+  border: 2px dotted red;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.col-pizza-5 {
+  width: 44.6777%;
+}
+.video {
+  width: 100%;
+  height: 50%;
+  margin-bottom: 40px;
+}
+.video-box {
+  background: blue;
+}
+.video-text {
+  background: orchid
+}
+
+@media(min-width: 640px) {
+  .hamburger {
+    opacity: 0;
+  }
+  main {
+    flex-direction: row;
+  }
+  nav ul {
+    border: 5px solid red;
+    opacity: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  nav ul li {
+    margin: 0 20px;
+  }
+}
