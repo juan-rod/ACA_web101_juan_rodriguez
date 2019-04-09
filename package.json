@@ -1,0 +1,23 @@
+{
+  "name": "aca_web101_juan_rodriguez",
+  "version": "1.0.0",
+  "description": "This is my ACA portfolio. Day 1!! 😎",
+  "main": "index.js",
+  "dependencies": {
+    "animate.css": "^3.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juan-rod/ACA_web101_juan_rodriguez.git"
+  },
+  "author": "juan rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juan-rod/ACA_web101_juan_rodriguez/issues"
+  },
+  "homepage": "https://github.com/juan-rod/ACA_web101_juan_rodriguez#readme"
+}

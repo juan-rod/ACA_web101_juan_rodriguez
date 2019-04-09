@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  height: 100%
+}
+.nasa-photo {
+  height: 50%;
+  border: 2px solid red;
+}
+.contact-info{
+  border: 2px solid red;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+
+}
+.contact-details {
+  border: 1px solid green;
+  height: 100%;
+  width: 100%;
+  /* max-width: 400px; */
+}
+
+@media(min-width: 640px) { 
+  .contact-info{
+    flex-direction: row;
+  }
+}
